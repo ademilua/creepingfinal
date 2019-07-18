@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Nov 28 14:04:15 2018
+# Process ID: 10076
+# Current directory: C:/Users/shree/OneDrive/Desktop/New folder/creeping
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13948 C:\Users\shree\OneDrive\Desktop\New folder\creeping\creeping.xpr
+# Log file: C:/Users/shree/OneDrive/Desktop/New folder/creeping/vivado.log
+# Journal file: C:/Users/shree/OneDrive/Desktop/New folder/creeping\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/shree/OneDrive/Desktop/New folder/creeping/creeping.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:14 . Memory (MB): peak = 761.688 ; gain = 64.871
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Wed Nov 28 14:12:34 2018] Launched synth_1...
+Run output will be captured here: C:/Users/shree/OneDrive/Desktop/New folder/creeping/creeping.runs/synth_1/runme.log
+[Wed Nov 28 14:12:34 2018] Launched impl_1...
+Run output will be captured here: C:/Users/shree/OneDrive/Desktop/New folder/creeping/creeping.runs/impl_1/runme.log
+open_hw
+connect_hw_server

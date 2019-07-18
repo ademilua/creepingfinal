@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Nov 20 21:49:10 2018
+# Process ID: 2216
+# Current directory: C:/Users/shree/OneDrive/Desktop/creeping lines/creeping_line1/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1004 C:\Users\shree\OneDrive\Desktop\creeping lines\creeping_line1\project_1\project_1.xpr
+# Log file: C:/Users/shree/OneDrive/Desktop/creeping lines/creeping_line1/project_1/vivado.log
+# Journal file: C:/Users/shree/OneDrive/Desktop/creeping lines/creeping_line1/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/shree/OneDrive/Desktop/creeping lines/creeping_line1/project_1/project_1.xpr}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_simulation
+source creeping_1_tb.tcl
+run all
+reorder_files -fileset constrs_1 -after {C:/Users/shree/OneDrive/Desktop/creeping lines/creeping_line1/project_1/project_1.srcs/constrs_1/new/creeping_1.xdc} {{C:/Users/shree/OneDrive/Desktop/creeping lines/creeping_line1/project_1/project_1.srcs/constrs_1/new/creeping_1.xdc}}
+close_sim

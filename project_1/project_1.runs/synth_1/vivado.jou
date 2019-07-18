@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Nov 26 21:45:04 2018
+# Process ID: 4924
+# Current directory: C:/Users/shree/OneDrive/Desktop/New folder/project_1/project_1.runs/synth_1
+# Command line: vivado.exe -log creeping_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source creeping_1.tcl
+# Log file: C:/Users/shree/OneDrive/Desktop/New folder/project_1/project_1.runs/synth_1/creeping_1.vds
+# Journal file: C:/Users/shree/OneDrive/Desktop/New folder/project_1/project_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source creeping_1.tcl -notrace

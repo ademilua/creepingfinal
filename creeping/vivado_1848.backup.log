@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Nov 27 22:40:53 2018
+# Process ID: 1848
+# Current directory: C:/Users/shree/OneDrive/Desktop/New folder/creeping
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2256 C:\Users\shree\OneDrive\Desktop\New folder\creeping\creeping.xpr
+# Log file: C:/Users/shree/OneDrive/Desktop/New folder/creeping/vivado.log
+# Journal file: C:/Users/shree/OneDrive/Desktop/New folder/creeping\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/shree/OneDrive/Desktop/New folder/creeping/creeping.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:27 ; elapsed = 00:00:49 . Memory (MB): peak = 724.781 ; gain = 69.355
+update_compile_order -fileset sources_1

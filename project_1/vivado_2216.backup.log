@@ -1,0 +1,100 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Nov 20 21:49:10 2018
+# Process ID: 2216
+# Current directory: C:/Users/shree/OneDrive/Desktop/creeping lines/creeping_line1/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1004 C:\Users\shree\OneDrive\Desktop\creeping lines\creeping_line1\project_1\project_1.xpr
+# Log file: C:/Users/shree/OneDrive/Desktop/creeping lines/creeping_line1/project_1/vivado.log
+# Journal file: C:/Users/shree/OneDrive/Desktop/creeping lines/creeping_line1/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/shree/OneDrive/Desktop/creeping lines/creeping_line1/project_1/project_1.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/toles/Desktop/creeping lines/creeping_line1/project_1' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:41 . Memory (MB): peak = 720.957 ; gain = 54.570
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1
+[Tue Nov 20 21:57:12 2018] Launched synth_1...
+Run output will be captured here: C:/Users/shree/OneDrive/Desktop/creeping lines/creeping_line1/project_1/project_1.runs/synth_1/runme.log
+launch_runs impl_1
+[Tue Nov 20 21:59:43 2018] Launched impl_1...
+Run output will be captured here: C:/Users/shree/OneDrive/Desktop/creeping lines/creeping_line1/project_1/project_1.runs/impl_1/runme.log
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/shree/OneDrive/Desktop/creeping lines/creeping_line1/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'creeping_1_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/shree/OneDrive/Desktop/creeping lines/creeping_line1/project_1/project_1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj creeping_1_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/shree/OneDrive/Desktop/creeping lines/creeping_line1/project_1/project_1.srcs/sources_1/new/creeping_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity creeping_1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/shree/OneDrive/Desktop/creeping lines/creeping_line1/project_1/project_1.srcs/sim_1/new/creeping_1_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity creeping_1_tb
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 774.453 ; gain = 2.371
+INFO: [USF-XSim-69] 'compile' step finished in '6' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/shree/OneDrive/Desktop/creeping lines/creeping_line1/project_1/project_1.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto dd0be07cd9104eefadb15fe2981e0439 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot creeping_1_tb_behav xil_defaultlib.creeping_1_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.creeping_1 [creeping_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.creeping_1_tb
+Built simulation snapshot creeping_1_tb_behav
+
+****** Webtalk v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/shree/OneDrive/Desktop/creeping -notrace
+couldn't read file "C:/Users/shree/OneDrive/Desktop/creeping": no such file or directory
+INFO: [Common 17-206] Exiting Webtalk at Tue Nov 20 22:09:32 2018...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:16 . Memory (MB): peak = 774.453 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '16' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/shree/OneDrive/Desktop/creeping lines/creeping_line1/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "creeping_1_tb_behav -key {Behavioral:sim_1:Functional:creeping_1_tb} -tclbatch {creeping_1_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source creeping_1_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 784.918 ; gain = 10.465
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'creeping_1_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:10 ; elapsed = 00:00:30 . Memory (MB): peak = 784.918 ; gain = 12.836
+run all
+reorder_files -fileset constrs_1 -after {C:/Users/shree/OneDrive/Desktop/creeping lines/creeping_line1/project_1/project_1.srcs/constrs_1/new/creeping_1.xdc} {{C:/Users/shree/OneDrive/Desktop/creeping lines/creeping_line1/project_1/project_1.srcs/constrs_1/new/creeping_1.xdc}}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 797.590 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Nov 20 22:21:13 2018...
